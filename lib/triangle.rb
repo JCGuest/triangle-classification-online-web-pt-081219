@@ -4,4 +4,5 @@ class Triangle
     @x = x
     @y = y 
     @z = z
-end
+  end
+end 
