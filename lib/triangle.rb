@@ -1,6 +1,6 @@
 class Triangle
   
-  attr_accessor :equalateral, :isosceles, :scalene
+  attr_accessor :equilateral, :isosceles, :scalene
   
   def initialize(x,y,z)
     @x = x
@@ -10,7 +10,7 @@ class Triangle
   
   def kind 
     if @x == @y && @z 
-      :equalateral
+      :equilateral
     end
   end
 end 
