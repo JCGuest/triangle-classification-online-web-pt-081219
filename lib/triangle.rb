@@ -11,6 +11,15 @@ class Triangle
   def kind 
     if @x == @y && @z 
       :equilateral
-    end
+    else @x != @y && @z
+      :isosceles
+    end 
   end
+  
+  
+class TriangleError < StandardError
+end
+
+
+
 end 
