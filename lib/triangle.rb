@@ -13,8 +13,9 @@ class Triangle
       :equilateral
     elsif @x != @y && @z
       :isosceles
-    else @x && @y != @z
+    elsif @x && @y != @z
       :isosceles
+    else @x != @y && @x != @z
     end 
   end
   
