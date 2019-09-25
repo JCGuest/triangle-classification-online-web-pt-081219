@@ -10,7 +10,7 @@ class Triangle
   
   def kind 
     if @x == @y && @z 
-      equalateral
+      :equalateral
     end
   end
 end 
