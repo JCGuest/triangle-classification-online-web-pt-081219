@@ -8,20 +8,15 @@ class Triangle
     @z = z
   end
   
-  def kind 
-    if @x == @y && @x == @z 
+  def kind
+     if x == y && y == z 
       :equilateral
-      
-    elsif @x != @y && @x == @z
+    elsif x == y || y == z || x == z
       :isosceles
-    elsif @x == @y && @y != @z
-      :isosceles
-      
-    else @x != @y && @y != @z && @x != @z
+    else
       :scalene
-    end 
   end
-  
+end
   
 class TriangleError < StandardError
 end
