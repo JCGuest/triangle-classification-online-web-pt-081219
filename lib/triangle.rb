@@ -11,6 +11,6 @@ class Triangle
   def kind 
     if @x == @y == @z 
       :equalateral
-    end
+    
   end
 end 
