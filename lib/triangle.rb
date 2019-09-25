@@ -9,6 +9,7 @@ class Triangle
   end
   
   def kind
+    validate_triangle
      if @x == @y && @y == @z 
       :equilateral
     elsif @x == @y || @y == @z || @x == @z
