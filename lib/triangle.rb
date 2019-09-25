@@ -15,7 +15,7 @@ class Triangle
       :isosceles
     elsif @x && @y != @z
       :isosceles
-    else @x != @y != @z
+    else @x != @y && @x != @z
       :scalene
     end 
   end
