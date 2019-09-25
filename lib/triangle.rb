@@ -13,7 +13,7 @@ class Triangle
       :equilateral
     else @x != @y && @z
       :isosceles
-    end 
+    else @x && @y != z
   end
   
   
